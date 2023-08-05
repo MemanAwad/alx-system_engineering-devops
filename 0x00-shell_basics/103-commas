@@ -1,2 +1,2 @@
-#!/bin/bas
-ls -m -a
+#!/bin/bash
+#ls -mpan
