@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+#bash script that print bad luck in 4 good luck 8 and best school otherwise
 i=0
 
 while [ $i -lt 10 ]
