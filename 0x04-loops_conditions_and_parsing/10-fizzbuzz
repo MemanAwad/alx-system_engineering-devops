@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# sscript to print fizz or buzz or fizzbuzz according to numbers
 
 for number in {1..100}
 do
