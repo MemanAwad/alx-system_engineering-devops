@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#bash script that say hi if the number is 9
 
 i=0
 
