@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #script that print bad luck for china in 4 japan 9 and italy 17
 
-i=0
+i=1
 
 while [ $i -le 20 ]
 do
