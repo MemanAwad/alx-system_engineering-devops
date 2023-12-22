@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 #bash script that kill process without kill command
 
-pkill -f 4-To_infinity_and_beyond
+pkill -f 4-to_infinity_and_beyond
 
