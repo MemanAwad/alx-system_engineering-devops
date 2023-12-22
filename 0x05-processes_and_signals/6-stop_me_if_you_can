@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-#bash script that print the process id
+#bash script that kill the To infinity and beyond program
 
-echo $$
+pkill  -f 4-to_infinity_and_beyond
