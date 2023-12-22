@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-#bash script that print the process id
+#bash script that hill highlander process
 
-echo $$
+pkill -f -SIGKILL 7-highlander
