@@ -1,4 +1,9 @@
 #!/usr/bin/env bash
-#bash script that print the process id
+#bash script that print something when sigterm
 
-echo $$
+while true
+do
+	echo "To infinity and beyond"
+	sleep 2
+	trap echo'"I am invincible!!!"' SIGTERM
+done
