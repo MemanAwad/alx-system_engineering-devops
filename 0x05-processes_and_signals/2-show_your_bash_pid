@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-#bash script that print the process id
+#bash script print currently running process in bash
 
-echo $$
+ps -auxf | grep bash
