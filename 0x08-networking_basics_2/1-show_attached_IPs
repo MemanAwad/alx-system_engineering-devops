@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
 #script that shows the attached ip addresess
 
-ip -4 addr show | grep -oP 'inet\s+\K[^\s]+'
-#ipconfig | grep -Eo "inet (addr:)?([0-9]*\.){3}[0-9]*" | cut -b 11-
+ifconfig | grep 'inet addr:' | awk {'print $2'}
