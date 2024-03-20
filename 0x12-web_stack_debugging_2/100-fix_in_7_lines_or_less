@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#script to fix the given container so that Nginx is running as the nginx user.
+#script to fix the given container so that Nginx is running as the nginx user in 7.
 
 sed -i "s/#user www-data/user nginx" /etc/nginx/nginx.conf
 sed -i "s/80/8080/g" /etc/nginx/sites-available/default
