@@ -10,5 +10,5 @@ if __name__ == "__main__":
 
     c_task = [td.get("title") for td in todos if td.get('completed') is True]
     print("Employee {} is done with tasks({}/{}):".format(
-        user.get("name", len(c_task), len(todos))))
+        user.get("name"), len(c_task), len(todos)))
     [print("\t {}".format(ti)) for ti in c_task]
