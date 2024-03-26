@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" Take the employee id and returuns its TODO list and export it to cvs format"""
+""" Take id and returuns its TODO list and export it to cvs format"""
 import csv
 import requests
 import sys
